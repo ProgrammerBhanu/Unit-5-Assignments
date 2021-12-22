@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpack</title>
+</head>
+
+<body>
+
+    <div id="root">
+    </div>
+    <h1>ToDo List</h1>
+    <h3 class="count">No. of Task:-</h3>
+
+    <div>
+        <label for="name">Task</label>
+        <input type="text" id="name">
+    </div>
+    <div>
+        <label for="Quantity">Quantity</label>
+        <input type="text" id="quan">
+    </div>
+    <div>
+        <label for="name">Priority</label>
+        <select name="" id="priority">
+                <option value="Choose">Choose</option> 
+                <option value="low">Low</option>
+                <option value="med">Med</option>
+                <option value="high">High</option>
+            </select>
+    </div>
+    <input id="form-data" type="submit" value="Sumbit">
+
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Priority</th>
+            <th>Status</th>
+            <th>Remove</th>
+        </tr>
+    </table>
+</body>
+<script src="/build/bundle.js"></script>
+
+</html>

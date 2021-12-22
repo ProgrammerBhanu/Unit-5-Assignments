@@ -1,0 +1,38 @@
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 10%;
+}
+
+input {
+    margin: 10px;
+    padding: 2px 10px;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+h3 {
+    text-align: end;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+}
+
+.tgle {
+    background-color: green;
+}
