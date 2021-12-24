@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  border: 2px solid black;
+  width: 40%;
+  height: 45vh;
+  border-radius: 5px;
+  background-color: aqua;
+}
+#root{
+  background-color: #234c54;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  width: 10vw;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  color: red;
+  background-color: cornflowerblue;
+}
+.ev-od{
+  color: red;
+}
+.reset{
+  background-color: red;
+  color: white;
+}
+.reset:hover{
+  background-color: yellow;
+}
