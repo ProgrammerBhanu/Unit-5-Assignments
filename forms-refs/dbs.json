@@ -1,0 +1,51 @@
+{
+  "userDetails": [
+    {
+      "name": "Bhanu Pratap Solanki",
+      "age": "21",
+      "address": "VILLAGE AND POST YAKUTGANJ",
+      "department": "placement",
+      "salary": "50000",
+      "maritalStatus": true,
+      "profilePhoto": "dp1.png",
+      "id": 1
+    },
+    {
+      "name": "Ranjeet Singh",
+      "age": "23",
+      "address": "VILLAGE AND POST YAKTUGANJ",
+      "department": "technical",
+      "salary": "25000",
+      "maritalStatus": "",
+      "profilePhoto": "final_dp.png",
+      "id": 2
+    },
+    {
+      "name": "Rahul",
+      "age": "28",
+      "address": "Delhi",
+      "department": "safety",
+      "salary": "",
+      "maritalStatus": "",
+      "profilePhoto": "dp1.png",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
