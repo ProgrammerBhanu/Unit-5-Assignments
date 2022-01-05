@@ -128,3 +128,9 @@ button:hover::after {
         transform: translate(0);
     }
 }
+
+.input-container label {
+    color: Black;
+    font-size: 18px;
+    font-weight: 600;
+}

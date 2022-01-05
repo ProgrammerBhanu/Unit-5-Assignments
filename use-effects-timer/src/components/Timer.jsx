@@ -1,26 +1,26 @@
-import {useEffect,useState} from 'react'
+import { useEffect, useState } from "react"
 
-export const Timer = ()=>{
-    const [counter, setCounter] = useState(15);
-    useEffect(()=>{
-        const id = setInterval(()=>{
-            setCounter((p)=>{
-                if(p === 0){
-                    clearInterval(id);
-                    return 0;
+export const Timer = ({ initialTime, finalTime }) => {
+
+    const [time, setTime] = useState(initialTime);
+
+    useEffect(() => {
+        const timerInterval = setInterval(() => {
+            setTime((prev) => {
+                if (prev >= finalTime) {
+                    clearInterval(timerInterval);
+                    return "Times Up!"
                 }
-                return p-1;
+                return prev + 1;
             });
-        },1000)
-        return ()=>{
-            console.log("Internally");
-            clearInterval(id);
+        }, 1000);
+
+        return () => {
+            clearInterval(timerInterval);
         }
-    },[]);
-    
-    return (
-        <>
-         <h3>Timer: {counter}</h3>   
-        </>
-    )
+    }, [])
+
+    return <div>
+        <h3>Time Elapsed: {time}</h3>
+    </div>
 }
