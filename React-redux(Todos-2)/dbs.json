@@ -1,0 +1,31 @@
+{
+  "todos": [
+    {
+      "id": "2738d9f8-b3f0-44d9-a72e-095c20063040",
+      "title": "Edit DSA Task",
+      "status": true
+    },
+    {
+      "id": "57dc2685-48ac-4360-9b22-795a83bede9b",
+      "title": "Only Redux",
+      "status": false
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
