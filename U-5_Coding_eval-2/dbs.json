@@ -1,0 +1,48 @@
+{
+  "jobs": [
+    {
+      "c_name": "Masai School",
+      "title": "Software Engineer",
+      "salary": "1000000",
+      "des": "Putt is a Developer",
+      "location": "Gurgaon",
+      "type": "Remote",
+      "id": 1
+    },
+    {
+      "c_name": "Masai School",
+      "title": "Fws",
+      "salary": 1000,
+      "des": "Putt is a Developer",
+      "location": "Kasganj",
+      "type": "Remote",
+      "id": 2
+    },
+    {
+      "c_name": "Masai School",
+      "title": "UX designer",
+      "salary": 1000,
+      "des": "Putt is a Developer",
+      "location": "Delhi",
+      "type": "Regular",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
